@@ -21,4 +21,11 @@ begin
 
   Put_Line("End for loop"); 
 
+  for Count in reverse 1..10 
+  loop
+    Put("!roF "); 
+  end loop; 
+
+  Put_Line("End reverse for loop"); 
+
 end Forwhile; 
